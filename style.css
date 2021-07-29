@@ -1,0 +1,147 @@
+.icon {
+    float: left;
+    font-size: 50px;
+    margin: 40px;
+}
+
+.nav {
+    float: right;
+    margin-top: 30px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+    height: 150px;
+}
+
+.header {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: #e0d2a6;
+}
+
+ul {
+    /*  width: 650px;*/
+}
+
+span {
+    color: white;
+}
+
+.search-line {
+    background: #1E776D;
+    padding: 30px 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: arial;
+}
+
+form {
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.search-line button {
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.search-line input {
+    width: 82%;
+    height: 50px;
+    font-size: 20px;
+    padding: 15px;
+    background: #50AB96;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+}
+
+button {
+    background: #5CC377;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    border-top: 1px solid white;
+}
+
+.main-screen {
+    background: url(tigr-pantery-tigr-lezhit-smotrit-morda-bolshaya-polosataya-koshka-kamen-zima-sneg-padaet-les-fon.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.screen-section {
+    background: rgba(0, 0, 0, 0.7);
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    color: white;
+    padding: 30px;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    text-shadow: 5px 5px 5px rgb(0 0 0);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.button-second {
+    width: 100px;
+    height: 40px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+}
