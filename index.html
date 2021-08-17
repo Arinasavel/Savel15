@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6d2e07bf6f.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,15 +13,30 @@
     <div class="header">
         <div class="container">
             <div class="icon">
-                <span>WILDCAT</span>
+                <span class="header span">WILDCAT</span>
             </div>
             <div class="nav">
                 <ul>
                     <li>
                         <a href="#">Home</a>
                     </li>
-                    <li>
-                        <a href="#">Pages</a>
+                    <li class="dropdown-menu">
+                        <a href="#">Pages
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="nav-child">
+                            <ul>
+                                <li>
+                                    <a href="#">page 1></a>
+                                </li>
+                                <li>
+                                    <a href="#">page 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">page 3</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li>
                         <a href="#">Browse trips</a>
@@ -49,46 +66,66 @@
             <button class="button-second">Learn more</button>
         </div>
     </section>
-    <div class="container">
-        <h2>Explore regions</h2>
-        <p>Fixie lo-fi roof party consectetur, magna readymade eu 8-bit DIY ennui esse master cleanse Austin. In labore sed, Vice deep v nisi chia skateboard qui kitsch aliquip esse bespoke swag fedora mixtape.</p>
-        <div class="row">
-            <div class="column">
-                <div class="wrapper">
-                    <img src="Frame%201.jpg">
-                    <span>Africa</span>
+    <section class="cards">
+        <div class="container">
+            <h2>Explore Regions</h2>
+            <p>Fixie lo-fi roof party consectetur, magna readymade eu 8-bit DIY ennui esse master cleanse Austin. In labore sed,<br> Vice deep v nisi chia skateboard qui kitsch aliquip esse bespoke swag fedora mixtape.</p>
+            <div class="row">
+                <div class="column">
+                    <div class="wrapper">
+                        <img src="Frame%201.jpg"><br>
+                        <span class="img-span">Africa</span>
+                        <span class="img-span2">4 Trips</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="Frame%202.jpg"><br>
+                    <span class="img-span">Asia</span>
+                    <span class="img-span2">4 Trips</span>
+                </div>
+                <div class="column">
+                    <img src="Frame%203.jpg"><br>
+                    <span class="img-span">French Polynesia</span>
+                    <span class="img-span2">4 Trips</span>
+                </div>
+                <div class="column">
+                    <img src="Frame%204.jpg"><br>
+                    <span class="img-span">Australia</span>
+                    <span class="img-span2">4 Trips</span>
                 </div>
             </div>
-            <div class="column">
-                <img src="Frame%202.jpg">
-                <span>Asia</span>
+            <div class="row">
+                <div class="column">
+                    <img src="Frame%205.jpg"><br>
+                    <span class="img-span">Europe</span>
+                    <span class="img-span2">4 Trips</span>
+                </div>
+                <div class="column">
+                    <img src="Frame%206.jpg"><br>
+                    <span class="img-span">Middle east</span>
+                    <span class="img-span2">4 Trips</span>
+                </div>
+                <div class="column">
+                    <img src="Frame%208.jpg"><br>
+                    <span class="img-span">Norh America</span>
+                    <span class="img-span2">4 Trips</span>
+                </div>
+                <div class="column">
+                    <img src="Frame%209.jpg"><br>
+                    <span class="img-span">South America</span>
+                    <span class="img-span2">4 Trips</span>
+                </div>
             </div>
-            <div class="column">
-                <img src="Frame%203.jpg">
-                <span>French Polynesia</span>
-            </div>
-            <div class="column">
-                <img src="Frame%204.jpg">
-                <span>Australia</span>
+            <button class="button-third">View all trips</button>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="box">
+            <div class="container">
+                <h1>Need Assistance?</h1>
+                <h2>By Phone: 1-888-777-1546 By Email: contact@wildcat.com</h2>
+                <p>Locavore ethical brunch, delectus ad sustainable letterpress nostrud vegan squid kogi forage. Mumblecore 3 wolf moon Wes Anderson banh mi. Bespoke esse vero, photo booth McSweeney's ad Williamsburg nihil jean shorts drinking vinegar.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="column">
-                <img src="italiya-rim-fotografii-2.jpg">
-                <span>Eurore</span>
-            </div>
-            <div class="column">
-                <img src="middle-eastern-citadel-stena-vrata-zdaniia-verbliud-liudi-pa.jpg">
-                <span>Middle east</span>
-            </div>
-            <div class="column">
-                <img src="scale_1200.jpg">
-                <span>Norh America</span>
-            </div>
-            <div class="column">
-                <img src="chile-patagonia-nature.jpg">
-                <span>south America</span>
-            </div>
-        </div>
-    </div>
+    </section>
 </body>

@@ -28,13 +28,18 @@
 a {
     text-decoration: none;
     color: #e0d2a6;
+    transition: all 0.05s;
+}
+
+a:hover {
+    color: white;
 }
 
 ul {
     /*  width: 650px;*/
 }
 
-span {
+.header span {
     color: white;
 }
 
@@ -86,6 +91,11 @@ button {
     border: none;
     border-radius: 3px;
     border-top: 1px solid white;
+    transition: all 0.05s;
+}
+
+button:hover {
+    background: #96E29F;
 }
 
 .main-screen {
@@ -115,12 +125,13 @@ button {
 h1 {
     font-size: 40px;
     margin-top: 0;
-    text-shadow: 5px 5px 5px rgb(0 0 0);
+
 }
 
 p {
     font-size: 18px;
     line-height: 1.5;
+    text-align: center;
 }
 
 .button-second {
@@ -131,11 +142,18 @@ p {
 
 h2 {
     text-align: center;
+    padding-top: 25px;
+    color: white;
 }
 
 img {
-    width: 300px;
+    width: 100%;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+}
 
+img:hover {
+    transform: scale(1.1);
 }
 
 .row {
@@ -144,4 +162,62 @@ img {
 
 .column {
     flex: 1;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.img-span {
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.nav-child {
+    display: none;
+    position: absolute;
+    background: black;
+}
+
+.dropdown-menu:hover .nav-child {
+    display: block;
+}
+
+.nav-child li {
+    display: block;
+}
+
+ul {
+    padding: 0px;
+}
+
+.button-third {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.img-span2 {
+    color: green;
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    transition: all 0.05s;
+}
+
+.img-span2:hover {
+    color: black;
+}
+
+.box {
+    background: green;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.container h1 {
+    text-align: center;
 }
